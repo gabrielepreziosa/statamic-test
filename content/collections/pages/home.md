@@ -1,16 +1,44 @@
 ---
-title: Home
-id: home
-template: home
-blueprint: pages
+id: bb726916-1264-4722-9591-f36d80515c24
+blueprint: page
+title: 'Pagina test'
+author: 6df1e143-baed-4353-bff1-f19d4f949606
+template: layout
+updated_by: 6df1e143-baed-4353-bff1-f19d4f949606
+updated_at: 1698957655
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonu consetetur sadipscing elitr, sed diam nonus.'
+  -
+    type: set
+    attrs:
+      id: lohl8qq7
+      values:
+        type: text_w_photo
+        foto: spiaggia.png
+        titolo: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr!'
+        sottotitolo: 'Sottotitolo lorem ipsum dolor sit amet, consetetur sadipscing elitr!'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonu consetetur sadipscing elitr, sed diam nonus.'
+  -
+    type: set
+    attrs:
+      id: lohnikli
+      values:
+        type: text_w_photo
+        foto: spiaggia.png
+        titolo: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr!'
+        sottotitolo: 'Sottotitolo lorem ipsum dolor sit amet, consetetur sadipscing elitr!'
+  -
+    type: paragraph
+  -
+    type: paragraph
 ---
-## Welcome to your brand new Statamic site!
-
-Not sure where to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
-
-- [Jump into the Control Panel](/cp) and edit this page or begin setting up your own collections and blueprints.
-- [Head to the docs](https://statamic.dev) and learn how Statamic works.
-- [Watch some Statamic videos](https://youtube.com/statamic) on YouTube.
-- [Join our Discord chat](https://statamic.com/discord) and meet thousands of other Statamic developers.
-- [Start a discussion](https://github.com/statamic/cms/discussions) and get answers to your questions.
-- [Star Statamic on Github](https://github.com/statamic/cms) if you enjoy using it!

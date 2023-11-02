@@ -18,7 +18,7 @@ return [
         'default' => [
             'name' => config('app.name'),
             'locale' => 'en_US',
-            'url' => '/',
+            'url' => 'https://host1.gabrielepreziosa.ovh/statamic-test/public/',
         ],
 
     ],
